@@ -16,15 +16,15 @@ public class Number2 {
         System.out.println("Ввведите число 3");
         int number3 = in.nextInt();
 
-        System.out.println("числа, которые делятся на 2 и на 5" + " : " );
+        System.out.println("число, которое делится на 2 и на 5" + " : " );
 
-        if (number1% 2 == 0 && number1% 5 == 0 ) {
+        if (number1% 2 == 0 & number1% 5 == 0 ) {
             System.out.println( number1 );
         }
-        if (number2% 2 == 0 && number2% 5 == 0) {
+        if (number2% 2 == 0 & number2% 5 == 0) {
             System.out.println( +number2);
         }
-        if (number3% 2 == 0 && number3% 5 == 0) {
+        if (number3% 2 == 0 & number3% 5 == 0) {
             System.out.println(+ number3);
         }
 
