@@ -17,7 +17,7 @@ public class Number2 {
         System.out.println("Ввведите положительное число 2");
         int number2 = in.nextInt();
 //проверить являются ли числа положительными
-        if (number1 <= 0 | number2 <= 0) {
+        if (number1 <= 0 || number2 <= 0) {
             System.out.println("Одно из чисел отрицательное .Оба числа должны быть положительными.");
 
         } else {
