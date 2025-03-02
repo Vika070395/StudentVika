@@ -25,7 +25,7 @@ public class Number3 {
             number /= 10; // Убираем последнюю цифру из исходного числа
         }
 
-        System.out.println("Число в обратном порядке: " + numberback); // Выводим результат
+        System.out.println("Число в обратном порядке: " + numberback);
 
         }
     }
