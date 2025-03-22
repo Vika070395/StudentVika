@@ -14,6 +14,7 @@ public class StudentMain {
         for (Student student : students) {
             student.info();
         }
+        System.out.println ("");
 
         System.out.println("Текущая группа студента 3: " + students[2].getGroup());
 

@@ -21,8 +21,9 @@ public class Student {
         this.group = group;
         this.averageRating = averageRating;
     }
-//  Конструктор без
+//  Конструктор без параметров
 
+    // Конструктор без параметров
     public Student() {
     }
 
@@ -37,17 +38,20 @@ public class Student {
         System.out.println("Средняя оценка: " + averageRating);
     }
 
+    // Метод для изменения группы студента
     public void changeGroup(String newGroup) {
         group = newGroup;
         System.out.println("Новая группа: " + newGroup);
     }
 
+    // Метод для получения текущей группы студента
     public String getGroup() {
         return group;
     }
 
+    // Метод для изменения оценки и группы студента
     public void changeRatingAndGroup(int newRating, String newGroup) {
-        averageRating = newRating;
+        averageRating = newRating; //проверить значение
         group = newGroup;
         System.out.println("Rating: " + newRating + "group: " + newGroup);
     }
